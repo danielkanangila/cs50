@@ -177,11 +177,21 @@ footer {
         @extend %button;
         padding: 15px 50px;
         color: #fff;
+        border-color: #fff;
         font-weight: bold;
         margin-top: 15px;
         @media (min-width: $large) {
             color: inherit;
+            border-color: inherit;
         }
+    }
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    input {
+        margin-bottom: 15px;
     }
 }
 
