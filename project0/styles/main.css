@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 59px;
+  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+  padding: 0 3rem;
+}
+
+.nav-item {
+  padding: 20px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.nav-item:hover {
+  background-color: #ccc;
+}
+
+.page-title {
+  padding-bottom: 30px;
+}
+
+.container {
+  padding: 3rem;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.news-card {
+  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  position: relative;
+}
+
+.news-card--link {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.news-card--link span {
+  display: none;
+  color: #fff;
+}
+
+.news-card--link:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.news-card--link:hover > span {
+  display: block;
+}
+
+.news-card--title, .news-card--text-content {
+  padding-bottom: 20px;
+}
+
+.news-card--details {
+  font-size: 13px;
+}
+
+.news-card--details p {
+  color: grey;
+}
+
+footer {
+  background-color: #212121;
+  padding: 50px 0;
+  text-align: center;
+}
+
+footer p {
+  color: #fff;
+  line-height: 1.5;
+}
+
+footer p:first-child {
+  font-size: 1.2rem;
+}
+
+footer p.p-title {
+  font-size: 1.4rem;
+}
+
+footer a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  margin-top: 8px;
+}
+
+footer a i {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=main.css.map */
